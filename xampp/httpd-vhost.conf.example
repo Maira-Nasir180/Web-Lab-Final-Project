@@ -1,0 +1,14 @@
+# Copy this block to: C:\x\apache\conf\extra\httpd-vhosts.conf
+# Then add to C:\Windows\System32\drivers\etc\hosts (as Admin):
+#   127.0.0.1   sweetbite.test
+# Restart Apache in XAMPP Control Panel.
+# Open: http://sweetbite.test
+
+<VirtualHost *:80>
+    DocumentRoot "C:/x/htdocs/sweetbite_bakery/public"
+    ServerName sweetbite.test
+    <Directory "C:/x/htdocs/sweetbite_bakery/public">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
