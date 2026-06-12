@@ -1,5 +1,5 @@
 # Web-Lab-Final-Project
 SweetBite Bakery Website
-Project video Gdrive link: https://drive.google.com/file/d/1Blzq0anhYD_s7FpvW6md4hDWw3rFyE0B/view?usp=sharing
+Project Deploy Link: https://sweetbite-bakery-production.up.railway.app
 Maira Nasir Lodhi
 FA23-BSE-062
